@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hxu2m1qsqqhu"
-path="res://.godot/imported/tiny_battle.png-2881816b86f5ea4fed6cbea7ee10229e.ctex"
+uid="uid://oat40hisp04o"
+path="res://.godot/imported/tiny_ski.png-878f6c2a24dad40b155af08d4b098a77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiny_battle.png"
-dest_files=["res://.godot/imported/tiny_battle.png-2881816b86f5ea4fed6cbea7ee10229e.ctex"]
+source_file="res://assets/sprites/tiny_ski.png"
+dest_files=["res://.godot/imported/tiny_ski.png-878f6c2a24dad40b155af08d4b098a77.ctex"]
 
 [params]
 

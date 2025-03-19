@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oat40hisp04o"
-path="res://.godot/imported/tiny_ski.png-23c8c91f2e39348e6e19137e1f20dac6.ctex"
+uid="uid://c5hjbxpjihfso"
+path="res://.godot/imported/tiny_dungeon.png-8a09bd40f1ce2deb0665311005c2a16e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiny_ski.png"
-dest_files=["res://.godot/imported/tiny_ski.png-23c8c91f2e39348e6e19137e1f20dac6.ctex"]
+source_file="res://assets/sprites/tiny_dungeon.png"
+dest_files=["res://.godot/imported/tiny_dungeon.png-8a09bd40f1ce2deb0665311005c2a16e.ctex"]
 
 [params]
 

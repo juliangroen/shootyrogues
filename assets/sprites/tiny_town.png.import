@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5hjbxpjihfso"
-path="res://.godot/imported/tiny_dungeon.png-22f93b5f495fe766a0874c67d9f01d6d.ctex"
+uid="uid://gxnp7yt8inro"
+path="res://.godot/imported/tiny_town.png-f3f3bf3cb705d855f036b214488d9846.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tiny_dungeon.png"
-dest_files=["res://.godot/imported/tiny_dungeon.png-22f93b5f495fe766a0874c67d9f01d6d.ctex"]
+source_file="res://assets/sprites/tiny_town.png"
+dest_files=["res://.godot/imported/tiny_town.png-f3f3bf3cb705d855f036b214488d9846.ctex"]
 
 [params]
 

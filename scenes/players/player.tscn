@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://baxw2aea024sq"]
+
+[ext_resource type="Script" uid="uid://bhubc8ttthrmp" path="res://scenes/players/player.gd" id="1_ldeu4"]
+[ext_resource type="Texture2D" uid="uid://8eba3o62e08p" path="res://assets/sprites/tiny_tileset.png" id="2_kc87p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g72xb"]
+atlas = ExtResource("2_kc87p")
+region = Rect2(0, 128, 16, 16)
+filter_clip = true
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ldeu4"]
+radius = 7.0
+height = 16.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_ldeu4")
+speed = 64
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = SubResource("AtlasTexture_g72xb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_ldeu4")
