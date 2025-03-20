@@ -8,9 +8,8 @@ atlas = ExtResource("2_cx4mp")
 region = Rect2(0, 160, 16, 16)
 filter_clip = true
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8e3ao"]
-radius = 6.0
-height = 16.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8e3ao"]
+size = Vector2(16, 16)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_8e3ao")
@@ -20,5 +19,6 @@ texture_filter = 1
 texture = SubResource("AtlasTexture_g72xb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.88645e-05, -1.41263e-05)
 rotation = 1.5708
-shape = SubResource("CapsuleShape2D_8e3ao")
+shape = SubResource("RectangleShape2D_8e3ao")

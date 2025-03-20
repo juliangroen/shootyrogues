@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://upv1cg6x75uf"]
-
-[ext_resource type="TileSet" uid="uid://bjuqgnyk0r3bf" path="res://assets/tiny_tileset.tres" id="1_wipo8"]
-
-[node name="TileMapLayer" type="TileMapLayer"]
-tile_set = ExtResource("1_wipo8")
